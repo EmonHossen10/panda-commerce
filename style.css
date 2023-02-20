@@ -28,8 +28,8 @@ body {
   font-size: 50px;
 }
 .button {
-  height: 75px;
-  width: 200px;
+  height: 67px;
+  width: 175px;
   font-size: 30px;
   border: 0;
   border-radius: 15px;
@@ -37,16 +37,164 @@ body {
   color: white;
 }
 .button:hover {
-  color: black;
+  background-color: #ff2179;
+  font-color: black;
 }
 /* banner style end */
 /* card style start */
-.cards{
+.cards {
   border: 0;
   border-radius: 15px;
 }
-.card-font{
+.card-font {
   font-size: 50px;
   color: white;
   font-family: "Roboto", sans-serif;
+}
+/* shoes style start */
+/* women area style */
+.women-heading {
+  margin-top: 120px;
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--primary-color);
+}
+.card-style {
+  width: 370px;
+  height: 550px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  border-radius: 10px;
+  border: 0;
+}
+.image-container-1 {
+  width: 334px;
+  height: 327px;
+  background: #f1f1f1;
+  border-radius: 20px;
+  background-image: url(./images/shoes/shoe-1.png);
+  background-repeat: no-repeat;
+  background-size: 360px 240px;
+  margin-left: 17px;
+  margin-top: 18px;
+}
+.image-container-2 {
+  width: 334px;
+  height: 327px;
+  background: #f1f1f1;
+  border-radius: 20px;
+  background-image: url(./images/shoes/shoe-2.png);
+  background-repeat: no-repeat;
+  background-size: 360px 240px;
+  margin-left: 17px;
+  margin-top: 18px;
+}
+.image-container-3 {
+  width: 334px;
+  height: 327px;
+  background: #f1f1f1;
+  border-radius: 20px;
+  background-image: url(./images/shoes/shoe-3.png);
+  background-repeat: no-repeat;
+  background-size: 360px 230px;
+  margin-left: 17px;
+  margin-top: 18px;
+}
+
+.image-container-4 {
+  width: 334px;
+  height: 327px;
+  background: #f1f1f1;
+  border-radius: 20px;
+  background-image: url(./images/bags/bag-1.png);
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+  margin-left: 17px;
+  margin-top: 18px;
+}
+.image-container-5 {
+  width: 334px;
+  height: 327px;
+  background: #f1f1f1;
+  border-radius: 20px;
+  background-image: url(./images/bags/bag-2.png);
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+  margin-left: 17px;
+  margin-top: 18px;
+}
+.image-container-6 {
+  width: 334px;
+  height: 327px;
+  background: #f1f1f1;
+  border-radius: 20px;
+  background-image: url(./images/bags/bag-3.png);
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+  margin-left: 17px;
+  margin-top: 18px;
+}
+/* common css for man and women description */
+.h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #363958;
+}
+.p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3e3e3e;
+  padding-bottom: 10px;
+}
+.price {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #fabe4c;
+}
+.shadow {
+  box-shadow: 0 0 10px 0 black;
+}
+
+/* footer style */
+.background {
+  background-color: #fceae8;
+  height: 350px;
+  border: 0;
+  border-radius: 10px;
+}
+.footer-heading {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.footer-input {
+  height: 40px;
+  width: 323px;
+  border-radius: 5px;
+  border: 0;
+}
+.footer-button {
+  height: 55px;
+  width: 175px;
+  font-size: 30px;
+  border: 0;
+  border-radius: 15px;
+  background-color: #ff2179;
+  color: white;
+  margin-top: 10px;
+}
+.footer-button:hover {
+  background-color: #ff2179;
+  font-color: black;
+}
+.right {
+  text-align: center;
+  font-size: 18px;
 }
