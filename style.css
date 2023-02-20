@@ -4,11 +4,49 @@
   box-sizing: border-box;
 }
 /* fonts */
-body{
+body {
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
 }
-/* header style */
+/* banner style */
+.banner-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+.description {
+  font-size: 20px;
+}
 
-
-
+.color {
+  background-color: #fceae8;
+}
+.margin {
+  margin-top: 56px;
+}
+.price {
+  font-size: 50px;
+}
+.button {
+  height: 75px;
+  width: 200px;
+  font-size: 30px;
+  border: 0;
+  border-radius: 15px;
+  background-color: #ff2179;
+  color: white;
+}
+.button:hover {
+  color: black;
+}
+/* banner style end */
+/* card style start */
+.cards{
+  border: 0;
+  border-radius: 15px;
+}
+.card-font{
+  font-size: 50px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
